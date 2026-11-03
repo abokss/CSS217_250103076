@@ -1,0 +1,7 @@
+>>> TESTING DECORATOR STACK: Base64(HeaderFooter(BaseFileExporter)) <<<
+[DISK WRITE] Writing 326 bytes to file:///var/logs/audit.sec
+----- FILE PAYLOAD BEGIN -----
+=== METADATA HEADER: 2026-11-02 10:00:00 UTC ===
+[BASE64_CIPHERTEXT:ewogICJyZXBvcnQiOiAiVXNlckF1ZGl0UmVwb3J0IiwKICAicmVjb3JkcyI6IFsKICAgIHsiSUQiOiAiMTAxIiwgIlVzZXIiOiAic3VmeWFuIiwgIlJvbGUiOiAiQWRtaW4ifSwKICAgIHsiSUQiOiAiMTAyIiwgIlVzZXIiOiAiYWxleCIsICJSb2xlIjogIkRldiJ9CiAgXQp9]
+=== INTEGRITY CHECK: SHA-256 OK | END RECORD ===
+----- FILE PAYLOAD END -----

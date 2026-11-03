@@ -1,0 +1,5 @@
+Base Converted: $125.00
+
+>>> INVOICE BREAKDOWN <<<
+Order [ORD-9821] Base Item: $125.00 USD (Converted from 100.00 GBP) + [Gift Wrap: $5.00] + [Express Courier: $15.00] + [Customs Duty: 8.5%]
+FINAL CHARGE TOTAL: $157.33

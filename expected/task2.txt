@@ -1,0 +1,12 @@
+>>> 1. Initial Request (Cold Cache) <<<
+[NETWORK FETCH] Cache miss or expired for AAPL. Calling upstream adapter...
+AAPL Price: $183.00
+
+>>> 2. Immediate Repeat Request (Hot Cache) <<<
+[CACHE HIT] Returning cached price for AAPL: $183.00 (Age: <elapsed> ms)
+AAPL Price: $183.00
+
+>>> 3. Sleeping 1600ms to invalidate cache... <<<
+>>> 4. Subsequent Request (Expired Cache) <<<
+[NETWORK FETCH] Cache miss or expired for AAPL. Calling upstream adapter...
+AAPL Price: $183.00

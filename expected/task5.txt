@@ -1,0 +1,10 @@
+>>> 1. Authorized Video Playback via S3 (Admin Role) <<<
+Initializing Video Player for: trailers/hyperion_4k.mp4
+[PROXY AUDIT] Authorized user 'sufyan' [Role: ADMIN] accessing backend: AMAZON_S3_CLOUD
+[AWS S3 CLIENT] Performing HTTPS GET on bucket uri: s3://trailers/hyperion_4k.mp4
+SUCCESS: Video playback buffered 4 bytes via PROXY_GUARDED(AMAZON_S3_CLOUD)
+
+>>> 2. Unauthorized Audio Streaming via NFS (Guest Role - Blocked) <<<
+Initializing Audio Stream for: master_audio/soundtrack.flac
+[PROXY BLOCKED] Access Denied for User 'anonymous' [Role: GUEST] on resource: master_audio/soundtrack.flac
+FAILURE: Audio stream inaccessible.

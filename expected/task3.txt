@@ -1,0 +1,10 @@
+>>> 1. Critical Alert via SMS (Night time: 02:00, Emergency Bypass) <<<
+[SMS PROTOCOL -> +1555019283] !!! CRITICAL PRODUCTION ALERT !!! -- Incident Report: Database primary node kernel panic -- ACTION REQUIRED: SRE on-call immediate intervention.
+
+>>> 2. Daily Summary via Email at Night (Hour: 23:00 - Should Suppress) <<<
+[DISPATCH SUPPRESSED] Alert blocked by policy 'BUSINESS_HOURS_ONLY (09:00 - 17:00)' at hour 23:00 (Severity: 1)
+
+>>> 3. Daily Summary via Email during Workday (Hour: 11:00 - Should Deliver) <<<
+[EMAIL PROTOCOL -> dev-team@company.internal]
+Daily Digest:
+99.98% uptime achieved today.
